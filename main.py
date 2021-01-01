@@ -63,6 +63,11 @@ def train_cmd(ctx):
 def test_cmd(ctx):
     print(f"Testing: {ctx.obj['MODELNAME']}")
 
+@model_gr.command(name='predict')
+@click.pass_context
+def predict_cmd(ctx):
+    print(f"Predicting: {ctx.obj['MODELNAME']}")
+
 
 @cli.group(name='plot')
 @click.option('-d', '--dataset', type=str, required=True, help="Name of the dataset to plot.")

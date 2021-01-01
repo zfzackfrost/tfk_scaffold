@@ -12,6 +12,7 @@ click = "*"
 
 [dev-packages]
 yapf = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.8"

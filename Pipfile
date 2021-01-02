@@ -9,6 +9,8 @@ tensorflow = "*"
 matplotlib = "*"
 pandas = "*"
 click = "*"
+requests = "*"
+pyarrow = "*"
 
 [dev-packages]
 yapf = "*"

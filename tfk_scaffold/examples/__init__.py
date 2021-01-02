@@ -1,0 +1,1 @@
+from .dnn_classifier.model import Model as DNNClassifierModel
